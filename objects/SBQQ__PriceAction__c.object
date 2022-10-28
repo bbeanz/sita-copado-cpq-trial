@@ -158,6 +158,18 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>ExtId__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>External Id value for use with Copado Data Deployer or other external systems</description>
+        <externalId>true</externalId>
+        <label>ExtId</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>SBQQ__Field__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
@@ -389,7 +401,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Price Actions</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
         <fullName>SBQQ__Event_Evaluation_Pricing_Guidance</fullName>
